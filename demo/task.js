@@ -5,7 +5,7 @@ taskHub.on('connection', function(hub) {
 
   var i = 0;
   setInterval(function() {
-    hub.send('Hello World! ' + i);
+    hub.send('task:' + i);
     i++;
   }, 1000);
 
