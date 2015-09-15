@@ -1,0 +1,16 @@
+{
+  "version": "0.1.0",
+  "private": false,
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.4.12"
+  },
+  "dependencies": {
+    "amqp": ">= 0.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:adrai/rabbitmq-nodejs-client.git"
+  }
+}
