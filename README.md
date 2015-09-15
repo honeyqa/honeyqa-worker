@@ -1,2 +1,2 @@
 # nodejs-worker
-nodes based worker using rabbitmq
+node.js based worker using rabbitmq
