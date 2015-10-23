@@ -1,6 +1,6 @@
 var rabbitHub = require('../lib/hub');
 
-var taskHub = rabbitHub.create( { task: 'task', channel: 'myChannel' } );
+var taskHub = rabbitHub.create( { task: 'task', channel: 'QAChannel' } );
 taskHub.on('connection', function(hub) {
 
   var i = 0;
