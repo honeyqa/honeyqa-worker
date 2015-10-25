@@ -1,6 +1,6 @@
 var rabbitHub = require('../lib/hub');
 
-var workerHub = rabbitHub.create( { task: 'worker', channel: rabbitHub.channelType } );
+var workerHub = rabbitHub.create( { task: rabbitHub.worker, channel: rabbitHub.channelType } );
 workerHub.on('connection', function(hub) {
 
   hub.on('message', function(msg) {
