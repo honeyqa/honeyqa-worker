@@ -3,3 +3,4 @@
 
 * To verify workers keep running
 * To maximize the performance
+* Supports native java interface bridge
